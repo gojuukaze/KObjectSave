@@ -1,5 +1,5 @@
 ## KObjectSave
-`KObjectSave` is developed to replace android `SharedPreferences`, it supports int,string,Date,List and more  
+`KObjectSave` is developed to replace android `SharedPreferences`, it supports int,string,Date,List and more  
 代替android SharedPreferences的键值存储方式，支持多种类型
 
 
