@@ -1,18 +1,19 @@
 ## KObjectSave
-`KObjectSave` is developed to replace android `SharedPreferences`, it supports int,string,Date,List and more  
-代替android SharedPreferences的键值存储方式，支持多种类型
-[中文README](https://github.com/gojuukaze/KObjectSave/README.zh.md)
+`KObjectSave`用来代替android SharedPreferences的键值存储方式，
+支持多种类型（int, string ,Date ,bool ,List），  
+它可以方便的存储应用的设置选项，用户的点击记录等
 
-## Get started
-Just add dependency (`KObjectSave` is available in jcenter):
+
+## 添加依赖
+在app的build.gradle中添加
 ```
 dependencies {
     compile 'cn.ikaze.KObjectSave:library:1.0.0'
 }
 ```
 
-## Usage
-
+## 使用
+首先要有一个基础的类用于存储
 ```java
 public class Student {
     int no = 1; //default 1
@@ -27,7 +28,7 @@ public class Student {
     }
 }
 ```
-use `KObjectSave` to save Student
+使用 `KObjectSave` 存储 Student
 ```java
 
 KObjectSave kSave = new KObjectSave(this, Student.class);
@@ -44,23 +45,22 @@ try {
 }
 ```
 
-load data
+加载
 ```java
 Student tempSt = (Student) new KObjectSave(this, Student.class).getObj();
 lod.d("KObjectSave",""+tempSt);
 ```
 
-## Example
+## 例子
 [Example](https://github.com/gojuukaze/KObjectSave/tree/master/sample)
 
 
-## Where published?
+## bintray地址
 [Here](https://bintray.com/gojuukaze/maven/KObjectSave)
 
+## 注意！！
 
-## NOTICE !!
-
-KObjectSave dose not encrypt data, do not used to save password
+数据没有加密，不要用户存储用户密码等隐私数据
 
 ## License
 
