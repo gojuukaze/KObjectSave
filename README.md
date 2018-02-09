@@ -60,7 +60,7 @@ lod.d("KObjectSave",""+tempSt);
 
 ## NOTICE !!
 
-KObjectSave dose not encrypt data, do not used to save password
+*KObjectSave dose not encrypt data, do not used to save password*
 
 ## License
 
