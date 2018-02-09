@@ -1,7 +1,7 @@
 ## KObjectSave
 `KObjectSave` is developed to replace android `SharedPreferences`, it supports int,string,Date,List and more  
-代替android SharedPreferences的键值存储方式，支持多种类型
-[中文README](https://github.com/gojuukaze/KObjectSave/README.zh.md)
+代替android SharedPreferences的键值存储方式，支持多种类型  
+[中文README](https://github.com/gojuukaze/KObjectSave/blob/master/README.zh.md)
 
 ## Get started
 Just add dependency (`KObjectSave` is available in jcenter):
