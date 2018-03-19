@@ -60,10 +60,10 @@ lod.d("KObjectSave",""+tempSt);
 
 ## NOTICE !!
 
-*KObjectSave dose not encrypt data, do not used to save password*
+* KObjectSave dose not encrypt data, do not used to save password*
 
 ## License
 
-     Apache License
+                                Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
