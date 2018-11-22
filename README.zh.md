@@ -1,6 +1,6 @@
 ## KObjectSave
 `KObjectSave`用来代替android SharedPreferences的键值存储方式，
-支持多种类型（int, string ,Date ,bool ,List），  
+支持几乎所有类型（int, string ,Date ,bool ,List等），  
 它可以方便的存储应用的设置选项，用户的点击记录等
 
 
